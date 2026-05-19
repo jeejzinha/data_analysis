@@ -366,16 +366,161 @@ Após todo o processo de limpeza, chegamos a um dataset com **36.999 idosos bras
 
 ---
 
-## 🎯 O que vem a seguir
-
-Com o dataset limpo, as próximas etapas da análise são:
-
-1. **Gráfico 1:** Média de consultas médicas por região e plano de saúde
-2. **Gráfico 2:** Distribuição de plano de saúde por faixa de renda
-3. **Gráfico 3:** Acesso a consultas por região e faixa de renda (os dois fatores combinados)
-4. **Modelagem:** Verificar estatisticamente se as diferenças são significativas
-5. **Conclusão:** Responder à pergunta de pesquisa com base nos dados
+# 🎤 Roteiro de Apresentação — Data Storytelling
+## "Acesso à Saúde entre Idosos Brasileiros: Uma Análise da Desigualdade por Renda e Região"
+### Jessica de Toledo Hernandez | CCD210 | 2º Semestre 2026
 
 ---
+
+## 🟣 PARTE 1 — O GANCHO
+*Ainda sem abrir o dashboard. Fala direto para o professor.*
+
+**O que falar:**
+
+> "Eu quero que vocês imaginem dois idosos brasileiros.
+>
+> Os dois têm 70 anos. Os dois precisam de acompanhamento médico regular.
+>
+> O primeiro mora no interior do Maranhão. Aposentado, recebe menos de um salário mínimo por mês. Não tem plano de saúde — nunca teve. Quando precisa de consulta, pega ônibus por horas até o posto de saúde mais próximo.
+>
+> O segundo mora em Curitiba. Aposentado também, mas com uma renda maior. Tem plano de saúde há anos. Liga pro consultório e marca consulta para a semana seguinte.
+>
+> A diferença entre esses dois idosos não é sorte. É estrutura. É renda. É região.
+>
+> E os dados provam isso."
+
+*[abre o dashboard.]*
+
+---
+
+## 🟣 PARTE 2 — CONTEXTO E DADOS
+*Mostra o dashboard, aponta para os cards do topo.*
+
+**O que falar:**
+
+> "Para entender essa desigualdade, eu analisei a Pesquisa Nacional de Saúde de 2019, do IBGE — uma pesquisa pública com quase 300 mil brasileiros entrevistados.
+>
+> Filtrei apenas os idosos — pessoas com 60 anos ou mais — e cheguei a quase 37 mil registros válidos para análise.
+>
+> Logo de cara, os números já contam uma história preocupante."
+
+*[Aponta para o card de 72%]*
+
+> "72% dos idosos brasileiros não têm plano de saúde. 
+>
+> Pensa nisso: de cada 10 idosos no Brasil, 7 dependem exclusivamente do SUS para qualquer tipo de atendimento médico."
+
+---
+
+## 🟣 PARTE 3 — A HISTÓRIA DA RENDA
+*Aponta para o gráfico de barras de renda.*
+
+**O que falar:**
+
+> "Esse gráfico aqui mostra o percentual de idosos SEM plano de saúde por faixa de renda.
+>
+> Olha a progressão."
+
+*[Vai apontando barra por barra, de cima para baixo]*
+
+> "Na faixa mais baixa — menos de um quarto do salário mínimo — 92% dos idosos não têm plano.
+>
+> Na faixa seguinte — de um quarto a metade do salário mínimo — são 95%. O maior percentual de todos.
+>
+> Conforme a renda vai subindo, o percentual vai caindo.
+>
+> E olha o extremo oposto: idosos que ganham mais de 5 salários mínimos? Apenas 12% estão sem plano.
+>
+> Em outras palavras: ter ou não ter plano de saúde no Brasil não é uma escolha. É uma consequência direta de quanto dinheiro você tem."
+
+---
+
+## 🟣 PARTE 4 — A HISTÓRIA DA REGIÃO
+*Aponta para o gráfico de pizza de região.*
+
+**O que falar:**
+
+> "Mas a renda não é o único fator. A região onde você mora também determina seu acesso à saúde.
+>
+> Esse gráfico mostra a distribuição de idosos sem plano por região do Brasil."
+
+*[Aponta para as fatias]*
+
+> "Norte e Nordeste concentram os maiores percentuais — mais de 80% dos idosos nessas regiões não têm plano de saúde.
+>
+> No Sudeste esse número cai para cerca de 60%. Ainda alto, mas significativamente menor."
+
+*[Usa o filtro interativo — clica em Nordeste]*
+
+> "Vamos aplicar um filtro aqui. Olha o que acontece quando a gente isola apenas o Nordeste."
+
+*[Mostra os números mudando]*
+
+> "Os cards mudam. A média de consultas cai. O percentual sem plano sobe ainda mais.
+>
+> Agora vamos comparar com o Sul."
+
+*[Troca o filtro para Sul]*
+
+> "Sul. Olha a diferença. A média de consultas é maior. O percentual sem plano é menor.
+>
+> E se a gente combinar região com renda..."
+
+*[Seleciona Sul + Mais de 5 SM]*
+
+> "Sul, renda alta: acesso privilegiado à saúde.
+>
+> Agora..."
+
+*[Seleciona Nordeste + Até 1/4 SM]*
+
+> "Nordeste, renda baixa: praticamente sem acesso privado. 100% dependente do SUS.
+>
+> Esse é o Brasil que os dados mostram."
+
+---
+
+## 🟣 PARTE 5 — O GRÁFICO DE CONSULTAS 
+*Aponta para o gráfico de barras de consultas por região.*
+
+**O que falar:**
+
+> "E como isso aparece no número de consultas médicas?
+>
+> Em todas as regiões, a barra roxa — idosos com plano — é sempre maior que a barra verde — idosos sem plano.
+>
+> Isso significa que ter plano de saúde impacta diretamente a frequência com que o idoso consegue ver um médico.
+>
+> E isso não é detalhe. Consultas regulares significam diagnóstico precoce. Significam tratamento contínuo de doenças crônicas como hipertensão e diabetes. Significam qualidade de vida."
+
+---
+
+## 🟣 PARTE 6 — CONCLUSÃO E IMPACTO 
+*Remove todos os filtros. Mostra o dashboard completo.*
+
+**O que falar:**
+
+> "Então o que os dados nos dizem?
+>
+> Que no Brasil, o acesso à saúde na terceira idade é fortemente determinado por dois fatores: quanto você ganha e onde você mora.
+>
+> Lembram dos dois idosos que eu apresentei no começo? Os dados confirmam a história deles.
+>
+> O idoso do Maranhão, de baixa renda, no Nordeste — está no grupo com menor acesso. Mais de 80% dos idosos na situação dele não têm plano de saúde.
+>
+> O idoso de Curitiba, de renda maior, no Sul — está no grupo com maior acesso.
+>
+> Essa desigualdade é real. E ela tem consequências na saúde, na qualidade de vida e na longevidade dessas pessoas.
+>
+> Esse estudo está alinhado com o ODS 3 da ONU — Saúde e Bem-Estar para todos. Porque os dados mostram que ainda estamos longe de garantir esse direito de forma igual para todos os idosos brasileiros.
+>
+> Obrigada."
+
+---
+
+
+
+
+
 
 *Documento criado para estudo pessoal do processo de Data Understanding e Data Preparation com Python e Google Colab.*
